@@ -36,6 +36,10 @@ body {
     color: #821F25;
 }
 
+.text-salmon {
+    color: #FBA7AB;
+}
+
 .navbar-nav li a {
     font-weight: bold;
     color: #821F25 !important;
@@ -43,7 +47,7 @@ body {
 }
 
 .summary {
-    background-color: #FBA7AB;
+    background-color: #821F25;
 }
 
 .navbar-nav li a:hover,
