@@ -10,7 +10,7 @@ body {
   background: url(images/heart.jpg) no-repeat top center;
   background-size: contain;
   content: '';
-  opacity: 0.35;
+  opacity: 0.1;
   position: absolute;
   top: 0;
   left: 0;
@@ -24,7 +24,6 @@ body {
     font-weight: 900;
     font-size: 39px;
     text-align: center;
-    color: #821F25;
     transition: transform .3s ease-in-out;
 }
 
