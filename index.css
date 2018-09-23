@@ -6,8 +6,9 @@ body {
     margin-bottom: 60px;
 }
 
-#about:after {
-  background: url(images/heart.jpg) no-repeat center left ;
+#heart:after {
+  background: url(images/heart.jpg) no-repeat top center;
+  background-size: contain;
   content: '';
   opacity: 0.35;
   position: absolute;
@@ -16,6 +17,35 @@ body {
   right: 0;
   bottom: 0;
   z-index: -1;
+}
+
+.card-icon {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 39px;
+    text-align: center;
+    color: #821F25;
+    transition: transform .3s ease-in-out;
+}
+
+.card-icon:hover {
+    transform: rotate(360deg);
+}
+
+.staff:before {
+    content: "\f0c0";
+}
+
+.invoice:before {
+    content: "\f571";
+}
+
+.pay:before {
+    content: "\f53c";
+}
+
+.help:before {
+    content: "\f4c4";
 }
 
 .brand {
